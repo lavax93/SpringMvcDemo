@@ -10,6 +10,7 @@
     <properties>
         <org.springframework-version>4.2.0.RELEASE</org.springframework-version>
         <jackson-version>2.7.3</jackson-version>
+        <log4j-version>1.6.6</log4j-version>
     </properties>
 
     <dependencies>
@@ -47,6 +48,25 @@
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>${jackson-version}</version>
+        </dependency>
+
+        <!--Logging-->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${log4j-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jcl-over-slf4j</artifactId>
+            <version>${log4j-version}</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>${log4j-version}</version>
+            <scope>runtime</scope>
         </dependency>
 
         <!--junit-->
