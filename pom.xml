@@ -8,7 +8,7 @@
     <name>SpringMvcDemo</name>
 
     <modules>
-
+        <module>webApp</module>
     </modules>
 
 </project>
