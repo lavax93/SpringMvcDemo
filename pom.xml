@@ -9,6 +9,7 @@
 
     <modules>
         <module>webApp</module>
+        <module>javaDemo</module>
     </modules>
 
 </project>
