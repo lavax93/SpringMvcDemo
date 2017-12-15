@@ -58,5 +58,6 @@
         <level value="${rootLevel}"></level>
         <appender-ref ref="DEFAULT-APPENDER"/>
         <appender-ref ref="ERROR-APPENDER"/>
+        <appender-ref ref="console"/>
     </root>
 </log4j:configuration>

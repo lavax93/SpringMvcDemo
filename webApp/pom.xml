@@ -11,6 +11,7 @@
         <org.springframework-version>4.2.0.RELEASE</org.springframework-version>
         <jackson-version>2.7.3</jackson-version>
         <log4j-version>1.6.6</log4j-version>
+        <javax.servlet-version>2.5</javax.servlet-version>
     </properties>
 
     <dependencies>
@@ -25,13 +26,21 @@
             <artifactId>spring-web</artifactId>
             <version>${org.springframework-version}</version>
         </dependency>
-        <!--Tag libs support for view layer-->
+
+        <!--Javax servlet-->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
             <version>1.2</version>
             <scope>runtime</scope>
         </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>${javax.servlet-version}</version>
+        </dependency>
+
+        <!--Tag libs support for view layer-->
         <dependency>
             <groupId>taglibs</groupId>
             <artifactId>standard</artifactId>

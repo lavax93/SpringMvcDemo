@@ -11,13 +11,13 @@ import org.slf4j.LoggerFactory;
  */
 @Controller
 public class IndexController {
-//    private static final Logger logger = LoggerFactory.getLogger(LoggerNames.LOGISTICS_COMPONENT);
+    private static final Logger logger = LoggerFactory.getLogger(IndexController.class);
 
     private static final String LIST_PAGE = "index";
 
     @RequestMapping("/index")
     public String toIndex() {
-//        logger.info("日志打印");
+        logger.info("日志打印");
         return "/index";
     }
 }
