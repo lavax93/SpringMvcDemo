@@ -1,0 +1,7 @@
+<books>
+    <book id="book1">
+        <author>author-name</author>
+        <title>title-name</title>
+        <publisher>publisher-name</publisher>
+    </book>
+</books>
